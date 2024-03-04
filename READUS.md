@@ -1,21 +1,19 @@
 - [Useful Available Datasets](#Useful-Available-Datasets)
--
 
 # Useful Available Datasets
 
-## Jeffsackmann's tennis abstract data
+## Jeffsackmann's tennis abstract data: https://tennisabstract.com
 
-- ## https://tennisabstract.com
 - [tennis_atp](https://github.com/JeffSackmann/tennis_atp)
-
+  - Dictonary: [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
   - Blabla summary
   - blabla
   - noteworth collumns
   - description or link to description
-  - [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
+  
 
 - [tennis_wta](https://github.com/JeffSackmann/tennis_wta)
-
+  - Dictonary(Same as atp): [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
 - [tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
 
   - [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
@@ -44,7 +42,8 @@
 
   - [Missing data](#Missing-data)
 
-## ~~Infosys~~ Australian Open & Roland Garros 'scraped' data
+
+## Infosys Australian Open & Roland Garros 'scraped' data
 
 AO Open and RG oficial data (and possibily other Infosys managed tournaments), is available in their website
 This data is generally high quality since it provides a **interface** for ['Hawkeye' Data](###'Hawkeye' Data)
