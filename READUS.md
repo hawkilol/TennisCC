@@ -1,11 +1,4 @@
-```bash
-yarn
-# or
-npm install
-```
-
-
-- [Useful Available Datasets](#Useful Available Datasets)
+- [Useful Available Datasets](#Useful-Available-Datasets)
 -
 
 # Useful Available Datasets
@@ -28,29 +21,28 @@ npm install
   - [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
 
 - [tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
-  !!
 
   - Blabla summary
   - blabla
   - noteworth collumns
   - description or link to description
 
-  - [Points dataset](#Points dataset)
+  - [Points dataset](#Points-dataset)
 
-    - [General Match Information](#General Match Information)
-    - [Serve and Point Details](#Serve and Point Details)
-    - [Additional Metrics and Context](#Additional Metrics and Context)
+    - [General Match Information](#General-Match-Information)
+    - [Serve and Point Details](#Serve-and-Point-Details)
+    - [Additional Metrics and Context](#Additional-Metrics-and-Context)
 
-  - [Matches datasets](#Matches datasets)
+  - [Matches datasets](#Matches-datasets)
 
-    - [Tournament and Match Identification](#Tournament and Match Identification)
-    - [Player Information](#Player Information)
-    - [Match Outcome](#Match Outcome)
-    - [Tournament Context](#Tournament Context)
-    - [Venue Details](#Venue Details)
-    - [Player Nationality](#Player Nationality)
+    - [Tournament and Match Identification](#Tournament-and-Match-Identification)
+    - [Player Information](#Player-Information)
+    - [Match Outcome](#Match-Outcome)
+    - [Tournament Context](#Tournament-Context)
+    - [Venue Details](#Venue-Details)
+    - [Player Nationality](#Player-Nationality)
 
-  - [Missing data](#Missing data)
+  - [Missing data](#Missing-data)
 
 ## ~~Infosys~~ Australian Open & Roland Garros 'scraped' data
 
