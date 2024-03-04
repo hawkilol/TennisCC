@@ -4,7 +4,7 @@
 
 ## Jeffsackmann's tennis abstract data: https://tennisabstract.com
 
-- [tennis_atp](https://github.com/JeffSackmann/tennis_atp)
+- [Tennis_atp](https://github.com/JeffSackmann/tennis_atp)
   - Dictionary: [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
   - Blabla summary
   - blabla
@@ -12,13 +12,13 @@
   - description or link to description
   
 
-- [tennis_wta](https://github.com/JeffSackmann/tennis_wta)
+- [Tennis_wta](https://github.com/JeffSackmann/tennis_wta)
   - Dictionary(Same as atp): [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
-- [tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
+- [Tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
 
   - [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
 
-- [tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
+- [Tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
 
   - Blabla summary
   - blabla
