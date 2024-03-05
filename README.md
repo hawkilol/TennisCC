@@ -52,7 +52,8 @@ These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/te
 
 ### CourtVision Data
 
-CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed... see [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md) for more info
+CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed... 
+see [Hawkeye scrap](https://github.com/ryurko/hawkeye) and [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md) for more info
 
 * `point_ID`: Character point ID
 * `set_num`: Set Number
