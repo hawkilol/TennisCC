@@ -9,12 +9,12 @@
   - **Dictionary**(Same as atp): [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
 - ### [Tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
 
-  - [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
+  - **Dictionary**: [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
 
 
 - ### [Tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
 
-  - #### **Dictionary / Description**
+  - #### **Dictionary / Description**:
     - [Points dataset](#Points-dataset)
   
       - [General Match Information](#General-Match-Information)
