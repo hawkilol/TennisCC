@@ -4,63 +4,87 @@
 
 ## Jeffsackmann's tennis abstract data: https://tennisabstract.com
 
-- [Tennis_atp](https://github.com/JeffSackmann/tennis_atp)
-  - Dictionary: [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
+- ### [Tennis_atp](https://github.com/JeffSackmann/tennis_atp)
+  - **Dictionary**: [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
   - Blabla summary
   - blabla
   - noteworth collumns
   - description or link to description
   
 
-- [Tennis_wta](https://github.com/JeffSackmann/tennis_wta)
-  - Dictionary(Same as atp): [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
-- [Tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
+- ### [Tennis_wta](https://github.com/JeffSackmann/tennis_wta)
+  - **Dictionary**(Same as atp): [tennis_atp matches_data_dictionary](https://github.com/JeffSackmann/tennis_atp/blob/master/matches_data_dictionary.txt)
+- ### [Tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
 
   - [MatchChartingProject data_dictionary](https://github.com/JeffSackmann/tennis_MatchChartingProject/blob/master/data_dictionary.txt)
 
-- [Tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
+
+- ### [Tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint)
 
   - Blabla summary
   - blabla
   - noteworth collumns
   - description or link to description
 
-  - [Points dataset](#Points-dataset)
+  - #### **Dictionary / Description**
+    - [Points dataset](#Points-dataset)
+  
+      - [General Match Information](#General-Match-Information)
+      - [Serve and Point Details](#Serve-and-Point-Details)
+      - [Additional Metrics and Context](#Additional-Metrics-and-Context)
+  
+    - [Matches datasets](#Matches-datasets)
+  
+      - [Tournament and Match Identification](#Tournament-and-Match-Identification)
+      - [Player Information](#Player-Information)
+      - [Match Outcome](#Match-Outcome)
+      - [Tournament Context](#Tournament-Context)
+      - [Venue Details](#Venue-Details)
+      - [Player Nationality](#Player-Nationality)
+  
+    - [Missing data](#Missing-data)
 
-    - [General Match Information](#General-Match-Information)
-    - [Serve and Point Details](#Serve-and-Point-Details)
-    - [Additional Metrics and Context](#Additional-Metrics-and-Context)
 
-  - [Matches datasets](#Matches-datasets)
+## Infosys Australian Open & Roland Garros 'scraped' data: [Haweye scrap](https://github.com/ryurko/hawkeye)
 
-    - [Tournament and Match Identification](#Tournament-and-Match-Identification)
-    - [Player Information](#Player-Information)
-    - [Match Outcome](#Match-Outcome)
-    - [Tournament Context](#Tournament-Context)
-    - [Venue Details](#Venue-Details)
-    - [Player Nationality](#Player-Nationality)
-
-  - [Missing data](#Missing-data)
-
-
-## Infosys Australian Open & Roland Garros 'scraped' data
+  - **Dictionary**: [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md)
+AO Open match example: https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3
 
 AO Open and RG oficial data (and possibily other Infosys managed tournaments), is available in their website
-This data is generally high quality since it provides a **interface** for ['Hawkeye' Data](###'Hawkeye' Data)
+This data is generally high quality since it provides a **interface** for ['Hawkeye' Data](###CourtVision-Data)
 However, this data had to be 'scraped' since their API is encrypted.
 So this data is **public** but initially unaccessible.
 
 Since all the matches general info (Ex. Match id, Players id, Points id) is already available: By decrypting their API responses (getting a proper JSON), its possible to iterate through the matches using match info to get point by point data for each match.
 
-This [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint) datasets are incomplete mostly because they lack this kind of 'unaccessible' data
+These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint) datasets are incomplete mostly because they lack this kind of 'unaccessible' data
 
-### 'Hawkeye' Data
+> [!IMPORTANT]
+> In the past, individuals successfully leveraged this API to create datasets: [Haweye scrap](https://github.com/ryurko/hawkeye), however since the changes made to the Infosys API, these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response to get a proper JSON, thus enabling their script to create fresh datasets once again 😎
+
+
+
+  
+
+### CourtVision Data
 
 CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed
 
-### Summary
 
--
+<!---### Summary -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
