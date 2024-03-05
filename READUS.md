@@ -60,7 +60,7 @@ Since all the matches general info (Ex. Match id, Players id, Points id) is alre
 These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint) datasets are incomplete mostly because they lack this kind of 'unaccessible' data
 
 > [!IMPORTANT]
-> In the past, individuals successfully leveraged this API to create datasets: [Haweye scrap](https://github.com/ryurko/hawkeye), however since the changes made to the Infosys API, these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response to get a proper JSON, thus enabling their script to create fresh datasets once again 😎
+> In the past, individuals successfully leveraged this API to create datasets: [Haweye scrap](https://github.com/ryurko/hawkeye), however since the changes made to the Infosys API, these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response to get a proper JSON: [API_Decryption Example](https://github.com/hawkilol/TCC/blob/main/API_Decryption.js), thus enabling their script to create fresh datasets once again 😎
 
 
 
