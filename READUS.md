@@ -1,5 +1,3 @@
-- [Useful Available Datasets](#Useful-Available-Datasets)
-
 # Useful Available Datasets
 
 ## Jeffsackmann's tennis abstract data: https://tennisabstract.com
