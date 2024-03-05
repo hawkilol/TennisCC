@@ -1,4 +1,3 @@
-// If using CommonJS (e.g., Node.js)
 const CryptoJS = require("crypto-js");
 const axios = require('axios');
 const fs = require('fs');
@@ -9,7 +8,6 @@ const userAgents = [
     'Mozilla/5.0 (iPad; CPU OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1',
     'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1',
     'Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.36',
-    // Add more as needed
   ];
 
 courtVisionUrl = 'https://itp-ao-sls.infosys-platforms.com/prod/api/court-vision/year/2024/eventId/580/matchId/MS701/pointId/0_0_0'
@@ -25,7 +23,6 @@ function getCourtVisionData() {
       'Content-Security-Policy': "default-src 'self' itp-ao-sls.infosys-platforms.com itp-ao.infosys-platforms.com itp-dev.idemo-ppc.com https://ausopen.com https://players.ausopen.com *.ausopen.com https://sit-7oxbj4.ausopen.com https://dev-7oxbj4.ausopen.com fonts.googleapis.com https://www.google-analytics.com https://fonts.gstatic.com www.google-analytics.com https://www.googleapis.com https://securetoken.googleapis.com https://itp-video-feed-master.s3.ap-southeast-2.amazonaws.com https://itp-digital-feed-master.s3.eu-west-3.amazonaws.com data: 'unsafe-inline'; img-src 'self' itp-ao-sls.infosys-platforms.com itp-ao.infosys-platforms.com itp-dev.idemo-ppc.com https://ausopen.com https://players.ausopen.com *.ausopen.com https://sit-7oxbj4.ausopen.com https://dev-7oxbj4.ausopen.com fonts.googleapis.com https://www.google-analytics.com https://fonts.gstatic.com www.google-analytics.com https://www.googleapis.com https://securetoken.googleapis.com https://itp-video-feed-master.s3.ap-southeast-2.amazonaws.com https://itp-digital-feed-master.s3.eu-west-3.amazonaws.com data: blob: 'unsafe-inline'; object-src 'none'; worker-src 'self' blob:",
       'Content-Type': 'application/json',
       'Server': 'CloudFront'
-      // Additional headers as needed
     };
   
     axios.get(courtVisionUrl, { headers: headers })
@@ -66,8 +63,6 @@ function formatDate(t) {
   if (s < 14)
     for (var c = 0; c < 14 - s; c++)
       o += "0";
-
-
   else
     s > 14 && (o = o.substr(0, 14));
   return "#" + o + "$";
