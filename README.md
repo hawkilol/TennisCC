@@ -36,7 +36,7 @@
 ## Infosys Australian Open & Roland Garros 'scraped' data: [Hawkeye scrap](https://github.com/ryurko/hawkeye)
 
   - **Dictionary**: [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md)
-AO Open match example: https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3
+  - AO Open match example: [Sinner vs medvedev AO Open Final match page](https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3)
 
 AO Open and RG oficial data (and possibily other Infosys managed tournaments), is available in their website
 This data is generally high quality since it provides a **interface** for ['Hawkeye' Data](###CourtVision-Data)
@@ -50,13 +50,51 @@ These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/te
 > [!IMPORTANT]
 > In the past, individuals successfully leveraged this API to create datasets: [Hawkeye scrap](https://github.com/ryurko/hawkeye), however since the changes made to the Infosys API, these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response to get a proper JSON: [API_Decryption Example](https://github.com/hawkilol/TCC/blob/main/API_Decryption.js), thus enabling their script to create fresh datasets once again 😎
 
-
-
-  
-
 ### CourtVision Data
 
-CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed...
+CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed... see [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md) for more info
+
+* `point_ID`: Character point ID
+* `set_num`: Set Number
+* `game_num`: Game Number
+* `point_num`: Point number WITHIN a game (always starts at 1)
+* `serve_num`: Serve Number (1,2). Lets are not tracked.
+* `server_id`: 'Server ID
+* `returner_id`: Returner ID
+* `point_winner_id`: Point Winner ID (either serverID or returnerID)
+* `court_side`: Serve Court ('AdCourt' or 'DeuceCourt')
+* `serve_speed_kph`: Serve Speed in Kilometers per Hour
+* `serve_type`:'Flat', 'Pronated', 'Slice', 'Unclassified'
+* `fault_distance_missed_m`: If serve was fault, by how much did it miss? In Metres
+* `(x,y,z)_ball_serve_impact`: Location of where the serve ball was struck.
+* `rally_length`: Length of rally (including serve)
+* `point_end_type`: How did rally end? Ex: Fault, Unforced/Forced error, Winner
+* `error_type`: If point ended in an error, which type? Ex: Net, Wide, Long
+* `trapped_by_net`: *I think* Boolean for whether shot was net error?
+* `slast_troke`: Type of stroke on last shot of rally. Ex: Ground, Passing, Drop. "Last shot" means any last recorded shot (winner, error, etc)
+* `last_hand`: Handedness on last shot.
+* `last_stroke_net_height_m`: Ball height at net on last shot of rally (in metres).
+* `winner_placement`: Cross Court or Down the Line
+* `unforcedErrorPlacement`: If shot error, what type? Wide, Net, Long. This is the same as `error_type`?
+* `is_break_point`: Boolean
+* `is_break_point_converted`: Boolean
+* `runAroundForeHand`: Boolean
+* `is_track_avail`: Boolean. Indicates whether ball tracking data is available for this rally sequence. 
+* `(x,y,z)_serve_bounce`: coordinates of serve bounce
+* `serve_dir`: Serve Direction (T, Wide, Body)
+* `(x,y,z)_net_serve`: coordinates of serve ball as it reached the net
+* `last_ball_impact_(x,y,z)`: Coordinates of last location ball was hit
+* `last_ball_bounce_(x,y,z)`: coordinates of last ball bounce
+* `serve_return_impact_(x,y,z)`: coordinates of where the returner made contact with serve
+* `serve_return_net_(x,y,z)`: coordinates of where the serve-return shot reached the net
+* `serve_return_bounce_(x,y,z)`: coordinates of where the serve-return shot landed
+* `spin_rpm`: Ball spin on last rally shot
+* `is_fault`: 0 = Not fault; 1= Fault 
+* `is_doublefault`: 0 = Not doublefault; 1= doublefault 
+* `is_tiebreak`: Indicator for current point being a tiebreak
+* `is_ace`: Indicator if serve is an ace
+* `is_prev_doublefault`: Indicator if serve is doublefault
+* `is_prev_ace`: Indicator if previous serve was an ace
 
 
 <!---### Summary -->
