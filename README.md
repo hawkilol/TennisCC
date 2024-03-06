@@ -48,7 +48,9 @@ Since all the matches general info (Ex. Match id, Players id, Points id) is alre
 These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint) datasets are incomplete mostly because they lack this kind of 'unaccessible' data
 
 > [!IMPORTANT]
-> In the past, individuals successfully leveraged this API to create datasets: [Hawkeye scrap](https://github.com/ryurko/hawkeye), however since the changes made to the Infosys API, these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response to get a proper JSON: [API_Decryption Example](https://github.com/hawkilol/TCC/blob/main/API_Decryption.js), thus enabling their script to create fresh datasets once again 😎
+> In the past, individuals successfully leveraged this API to create datasets: [Hawkeye scrap](https://github.com/ryurko/hawkeye) by dumping the JSON responses and converting them to a proper csv, however since the changes made to the Infosys API, the JSON dumping step of these scraping methods no longer work, nonetheless, now its possible to reverse engineer how their frontend processes the new encrypted API response [API_Decryption Function](https://github.com/hawkilol/TennisCC/blob/main/AO_scrap_API.py) to translate it to proper JSON: [AO Open Match JSON dump](https://github.com/hawkilol/TennisCC/blob/main/atp_AO_Open_year_2024_MS101_tracking_data.json) , thus enabling their script to create fresh datasets once again 😎 : [new csv here](new csv here)
+
+
 
 ### CourtVision Data
 
