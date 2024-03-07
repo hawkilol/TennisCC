@@ -58,7 +58,7 @@ These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/te
 ### CourtVision Data
 
 CourtVision data, contains data that can only be obtained by high quality on court sensor like the Hawkeye system such as ball coordinates and speed... 
-see [Hawkeye scrap reference](https://github.com/ryurko/hawkeye)
+see the [Sinner vs medvedev AO Open Final match page](https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3) and select CourtVision for visual reference
 
 #### Play by Play
 Each .csv file chronicles the outcomes of all points in the match, !lacking data on let points!, and includes information on ball trajectories, such as serve impacts and bounces, and serve-return interactions.
