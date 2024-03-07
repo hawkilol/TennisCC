@@ -39,11 +39,11 @@
   - AO Open match example: [Sinner vs medvedev AO Open Final match page](https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3)
 
 AO Open and RG oficial data (and possibily other Infosys managed tournaments), is available in their website
-This data is generally high quality since it provides a interface for samples of ['Hawkeye' Data](###CourtVision-Data)
+This data is generally high quality since it provides a interface for samples of ['Hawkeye' Data](#CourtVision-Data)
 However, this data had to be 'scraped' since their API is encrypted.
 So this data is `public` but initially unaccessible.
 
-Since all the matches general info (Ex. Match id, Players id, Points id) is already available: By decrypting their API responses (getting a proper JSON), its possible to iterate through the matches using match info to get point by point data for each match.
+Since all the matches general info (Ex. Match id, Players id, Points id) is already available: By decrypting their API responses, meaning getting a proper JSON), its possible to iterate through the matches using match info to get point by point data for each match.
 
 These [Jeffsackmann tennis_slam_pointbypoint](https://github.com/JeffSackmann/tennis_slam_pointbypoint) datasets are incomplete mostly because they lack this kind of 'unaccessible' data
 
