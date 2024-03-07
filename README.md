@@ -61,7 +61,7 @@ CourtVision data, contains data that can only be obtained by high quality on cou
 see [Hawkeye scrap reference](https://github.com/ryurko/hawkeye)
 
 #### Play by Play
-Each .csv file contains rowwise the outcome of each point in an entire tennis match. Let points are not available. Some ball trajectory is included as columns (serve impact, serve bounce, serve-return impact, serve-return bounce, etc)
+Each .csv file chronicles the outcomes of all points in the match, !lacking data on let points!, and includes information on ball trajectories, such as serve impacts and bounces, and serve-return interactions.
 
   * `point_ID`: Character point ID
   * `set_num`: Set Number
