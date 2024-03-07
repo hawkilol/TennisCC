@@ -35,11 +35,11 @@
 
 ## Infosys Australian Open & Roland Garros 'scraped' data: [Hawkeye scrap](https://github.com/ryurko/hawkeye)
 
-  - `Dictionary`: [Courtvision data_dictionary](https://github.com/ryurko/hawkeye/blob/master/data_dictionary.md)
+  - `Dictionary`: [Courtvision data_dictionary](#CourtVision-Data)
   - AO Open match example: [Sinner vs medvedev AO Open Final match page](https://ausopen.com/match/2024-jannik-sinner-vs-daniil-medvedev-ms701#!infosys-3)
 
 AO Open and RG oficial data (and possibily other Infosys managed tournaments), is available in their website
-This data is generally high quality since it provides a `interface` for ['Hawkeye' Data](###CourtVision-Data)
+This data is generally high quality since it provides a interface for samples of ['Hawkeye' Data](###CourtVision-Data)
 However, this data had to be 'scraped' since their API is encrypted.
 So this data is `public` but initially unaccessible.
 
