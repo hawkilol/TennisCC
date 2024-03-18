@@ -80,7 +80,7 @@ Each .csv file chronicles the outcomes of all points in the match, !lacking data
   * `point_end_type`: How did rally end? Ex: Fault, Unforced/Forced error, Winner
   * `error_type`: If point ended in an error, which type? Ex: Net, Wide, Long
   * `trapped_by_net`: *I think* Boolean for whether shot was net error?
-  * `slast_troke`: Type of stroke on last shot of rally. Ex: Ground, Passing, Drop. "Last shot" means any last recorded shot (winner, error, etc)
+  * `last_stroke_type`: Type of stroke on last shot of rally. Ex: Ground, Passing, Drop. "Last shot" means any last recorded shot (winner, error, etc)
   * `last_hand`: Handedness on last shot.
   * `last_stroke_net_height_m`: Ball height at net on last shot of rally (in metres).
   * `winner_placement`: Cross Court or Down the Line
