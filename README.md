@@ -104,11 +104,13 @@ Each .csv file chronicles the outcomes of all points in the match, !lacking data
   * `is_ace`: Indicator if serve is an ace
   * `is_prev_doublefault`: Indicator if serve is doublefault
   * `is_prev_ace`: Indicator if previous serve was an ace
-  <!--
   * `server_score`: 
   * `returner_score`:
-  * `player1`:
-  * `player2`:
+  * `player1`: Player1 ID
+  * `player2`: Player2 ID
+  <!--
+
+
   * `p1_cum_games`:
   * `p2_cum_games`:
   * `p1_cum_sets`:
